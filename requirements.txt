@@ -1,0 +1,7 @@
+# Requirements for LeniaLernt
+# Keine zwingenden pip-Abhängigkeiten für das Quiz (Tkinter ist systemseitig).
+# Optionales Test-Tool:
+pytest>=7.0
+streamlit>=1.0
+openai>=0.27.0
+python-dotenv>=1.0

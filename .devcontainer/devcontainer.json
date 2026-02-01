@@ -1,0 +1,12 @@
+{
+  "name": "LeniaLernt Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [],
+  "postCreateCommand": "pip install -r requirements.txt || true",
+  "remoteUser": "vscode"
+}

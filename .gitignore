@@ -1,0 +1,15 @@
+# Environment files
+.env
+.env.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# Byte-compiled / distribution
+build/
+dist/
+*.egg-info/
